@@ -1,0 +1,7 @@
+{
+  "repo": [{
+    "id": "47210640-663e-4c19-b612-e92a836b377b",
+    "title": "Testcommand",
+    "cmd": "DATE=$(date); echo $DATE > command-run.txt"
+  }]
+}
