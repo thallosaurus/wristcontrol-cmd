@@ -1,29 +1,34 @@
 {
   "repo": [
     {
-    "id": "47210640-663e-4c19-b612-e92a836b377b",
-    "title": "Testcommand",
-    "cmd": "DATE=$(date); echo $DATE > command-run.txt"
-  },
+      "id": "47210640-663e-4c19-b612-e92a836b377b",
+      "title": "Testcommand",
+      "cmd": "DATE=$(date); echo $DATE > command-run.txt",
+      "description": "Testcommand that is used for simple testing. Will append the current date to a text file in your home directory"
+    },
     {
       "id": "c1d08671-f905-4982-ac30-3aeab89f4d58",
       "title": "Volume +5%",
-      "cmd": "osascript -e \"set volume output volume (output volume of (get volume settings) + 5)\""
+      "cmd": "osascript -e \"set volume output volume (output volume of (get volume settings) + 5)\"",
+      "description": "Turns up the volume by 5% using AppleScript"
     },
     {
       "id": "3aae78ac-6e46-4dbb-93e5-aa40a15b6714",
       "title": "Volume -5%",
-      "cmd": "osascript -e \"set volume output volume (output volume of (get volume settings) - 5)\""
+      "cmd": "osascript -e \"set volume output volume (output volume of (get volume settings) - 5)\"",
+      "description": "Turns down the volume by 5% using AppleScript"
     },
     {
       "id": "ce179f30-9e9c-4450-8ba3-ff9e4f953d95",
       "title": "Display Sleep",
-      "cmd": "pmset displaysleepnow"
+      "cmd": "pmset displaysleepnow",
+      "description": "Puts the Host into sleep Mode"
     },
     {
       "id": "8d7f528d-0f05-48b9-b33a-9002d46086b7",
       "title": "Run Screensaver",
-      "cmd": "open -b com.apple.ScreenSaver.Engine"
+      "cmd": "open -b com.apple.ScreenSaver.Engine",
+      "description": "Runs the screen saver; doesn't lock the screen"
     }
   ]
 }
