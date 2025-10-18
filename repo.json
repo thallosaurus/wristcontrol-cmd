@@ -29,6 +29,12 @@
       "title": "Run Screensaver",
       "cmd": "open -b com.apple.ScreenSaver.Engine",
       "description": "Runs the screen saver; doesn't lock the screen"
+    },
+    {
+      "id": "03e952f5-f60b-464d-9d84-9184675a2a46",
+      "title": "Some Test",
+      "cmd": "open -b com.apple.ScreenSaver.Engine",
+      "description": "Runs the screen saver; doesn't lock the screen"
     }
   ]
 }
